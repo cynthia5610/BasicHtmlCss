@@ -1,0 +1,204 @@
+/* ****************************************
+	
+	Your-Name-Goes-Here
+	
+**************************************** */
+
+
+/* ****************************************
+
+	
+	Instructions:
+	This is a general format CSS cheat sheet. 
+	The bottom half contains examples of common 
+	class declarations that you might want to use.
+	Use the top half of this sheet to create your
+	own custom style declarations. 
+
+	
+	I strongly advise you do not edit this sheet directly.
+	
+	Instead make a copies of this sheet and rename them.
+	
+	Example: mycss1.css and mycss2.css
+
+**************************************** */
+
+
+/* SECTION 1 */
+/* **************************************** Your custom style declarations **************************************** */
+
+body 
+h1 
+h2
+h3
+h4
+h5
+hr 
+p 
+
+/* Example: hr {color:navy}  */
+
+.caution {
+	font-size:200%;
+	color: Red
+}
+
+/* SECTION 2 */
+/* **************************************** Examples of Specific declarations **************************************** */
+
+/* ********** Hot to create custom link listings ********** */
+/*  a:link 					/*  unvisited link 		*/
+/*  a:visited 				/*  visited link 		*/
+/*  a:hover 				/*  mouse over link 	*/
+/*  a:active 				/*  selected link 		*/
+
+
+/* Example format: 		a:link {color:navy} 						*/
+/* Example Usage: 		<a href="default.html" target="_blank"> 	*/
+
+
+/* ********** How to create a custom text box ********** */
+div.box
+{
+	/* Example Settings */
+	width:70%;
+	/* padding:10px;  */
+	/* border:5px solid gray;  */
+	/* margin:0px;  */
+	/* background-color: white;  */
+	/* float:right; */
+	/* Border Types: Width:"thin, medium, thick" Style:"hidden, dotted, dashed, solid, double, groove, ridge" Color: */
+}
+
+/* Example Usage: <div class="box">Some text.</div>  */
+
+
+/* ********** A Custom Unordered List ********** */
+ul.cust
+{
+
+	/* Example Settings 		*/
+	 list-style-type:none;
+	/* padding:0px;  			*/
+	/* margin:0px;  			*/
+}
+
+li.cust
+{
+
+	/* Example Settings 					*/
+	/* background-image:url(arrow.gif);  	*/
+	/* background-repeat:no-repeat;  		*/
+	/* background-position:0px 5px;  		*/
+	   padding-left:14px; 
+}
+
+/* ********** A Custom Table List ********** */
+table.custom
+{
+
+	/* Example Settings */
+	/* border-collapse:separate;  */
+	   border-spacing:2px;
+}
+
+ /* Example:											*/
+ /* 	<table class="custom">							*/
+ /* 		<tr class="Rlightgrey">						*/
+ /* 			<td>Peter</td>							*/
+ /* 			<td>Griffin</td>						*/
+ /* 			</tr>									*/
+ /* 			<tr>									*/
+ /* 			<td>Lois</td>							*/
+ /* 			<td>Griffin</td>						*/
+ /* 		</tr>										*/
+ /* 	</table>										*/
+
+
+/* SECTION 3 */ 
+/* **************************************** Examples of General Class Declarations **************************************** */
+
+/* ********** Color ********** */
+
+/* Color class selectors */
+/* Example: <h1 class="center black"*/
+.black {color:black}
+.aqua {color:aqua}
+.blue {color:blue}
+.fuchsia {color:fuchsia}
+.gray {color:gray}
+.green {color:green}
+.lime {color:lime}
+.maroon {color:maroon}
+.navy {color:navy}
+.olive {color:olive}
+.purple {color:purple}
+.red {color:red}
+.silver {color:silver}
+.teal {color:teal}
+.white {color:white}
+.yellow {color:yellow}
+
+/* ********** Alignment & Indentation ********** */
+
+/* Alignment class selectors */
+/* Example: <p class="center"> */
+.right {text-align:right}
+.left {text-align:left}
+.center {text-align:center}
+.justify {text-align:justify}
+
+/* Text Indentation class selectors */
+/* Example: <p class="center ten"> */
+.ten {text-indent:10px} 
+.twenty {text-indent:20px} 
+.fifty {text-indent:50px} 
+/* Note: Applies to first line of text */
+
+/* ********** Decoration & Transformation ********** */
+
+/* Decoration class selectors */
+/* Example: <p class="center blink"> */
+.overline {text-decoration:overline}
+.line-through {text-decoration:line-through}
+.underline {text-decoration:underline}
+.blink {text-decoration:blink}
+/* Note blink is not supported by several browsers */
+
+/* Text Transformation class selectors */
+/* Example: <p class="center uppercase"> */
+.uppercase {text-transform:uppercase}
+.lowercase {text-transform:lowercase}
+.capitalize {text-transform:capitalize}
+
+/* ********** Font Families & Size ********** */
+
+/* Font Family class selectors */
+/* Example: <p class="serif ten"> */
+.serif {font-family:"Times New Roman",Georgia,Serif}
+.sansserif {font-family:Arial,Verdana,Sans-serif}
+.monospace {font-family:"Courier New", Courier, monospace}	
+
+/* Font Sytle & Weight class selectors */
+/* Example: <p class="italic ten"> */
+.italic {font-style:italic}
+.oblique {font-style:oblique}
+.bold {font-weight:bold}
+.bolder {font-weight:bolder}
+.lighter {font-weight:lighter}
+
+/* Font Size class selectors */
+/* Example: <p class="large ten"> */
+.xx-small {font-size:xx-small}  	/* Sets the font-size to an xx-small size */
+.x-small {font-size:x-small}  	 	/* Sets the font-size to an extra small size */
+.small {font-size:small}  	 	/* Sets the font-size to a small size */
+.medium {font-size:medium}  	 	/* Sets the font-size to a medium size. This is default */
+.large {font-size:large}  	 	/* Sets the font-size to a large size */
+.x-large {font-size:x-large}  	 	/* Sets the font-size to an extra large size */
+.xx-large {font-size:xx-large}  	/* Sets the font-size to an xx-large size */
+.smaller {font-size:smaller}  	 	/* Sets the font-size to a smaller size than the parent element */
+.larger {font-size:larger}  	 	/* Sets the font-size to a larger size than the parent element */
+
+
+/* **************************************** End **************************************** */
